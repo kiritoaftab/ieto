@@ -1,0 +1,17 @@
+{ "main":"index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase": "^9.17.1",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "serve": "nodemon server.js"
+  },
+  "exports":{
+    "./package.json":"./package.json",
+    "./index.js":"./index.js",
+    "./node_modules/firebase/package.json":"./node_modules/firebase/package.json"
+  },
+  "type":"module"
+}
